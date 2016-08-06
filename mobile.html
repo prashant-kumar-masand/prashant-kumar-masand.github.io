@@ -1,0 +1,9 @@
+<!--<h4>mobile data is </h4>-->
+<!--<ul><li ng-repeat="data in mobileData"><img src="{{data.pic}}" alt="">{{data.brand}}{{data.name}}</li></ul>-->
+<table border="0" class="table table-hover table-striped" >
+    <tr ng-repeat="data in mobileData|filter:search1|pkRange:mylimit1|orderBy:'brand'" class="classified " >
+        <td><img src="{{data.pic}}" height="110" width="100" alt=""></td>
+        <td>{{" Company:"}}<b>{{data.brand}}<b></td>
+        <td><i class="fa fa-inr fa-1x" aria-hidden="true"></i>{{data.price|currency:""}}</td>
+    </tr>
+</table>

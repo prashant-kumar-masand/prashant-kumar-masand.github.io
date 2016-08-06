@@ -1,0 +1,16 @@
+
+<table>
+<tr><td>Tablet Brand:</td></tr>
+<tr>
+    <td><input type="text" ng-model="search.brand" ng-change="myupdate()"></td>
+</tr>
+  <tr><td>Price limit:</td></tr>
+<tr>
+    <td><input type="number" min="2000" max="20000" step="1000" ng-model="mylimit" ng-change="updateto()" ></td>
+</tr>
+  <tr>
+      <td><button ng-click="pksort()"><i class="fa fa-sort fa-2x" aria-hidden="true"></i>
+</button></td>
+      <td></td>
+  </tr>
+</table>

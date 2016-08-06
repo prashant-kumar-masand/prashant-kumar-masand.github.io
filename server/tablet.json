@@ -1,0 +1,3 @@
+[{"id":"1", "brand":"dell","name":"mobile","price":"13000","pic":"../imagesjson/t2.jpg"},
+{"id":"2", "brand":"lenovo","name":"mobile","price":"11999", "pic":"../imagesjson/t1.jpg"},         
+ {"id":"3","brand":"sony","name":"mobile","price":"10000","pic":"../imagesjson/t3.jpg"}]
