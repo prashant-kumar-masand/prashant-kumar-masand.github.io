@@ -1,0 +1,26 @@
+.sec{background-color:lightgreen;}
+
+#secondhead{
+		 background-image:url(grill.png);
+		background-color:#ccceee;
+		padding:25px;
+	color:#ffffff;
+	font-family:verdana; 
+	 font-size:50px; 
+	 font-style:oblique;
+	
+			}
+#mainhead{
+background-color:#007700;
+}
+/*
+.sec{margin-top:150px}
+*/
+
+.design{font-size:30px;
+		font-family:sans-serif,courier,verdana,arial;
+		font-weight:normal;}
+ .heading{font-family:"times new roman" arial;
+ color:#012345;
+ font-size:30px;
+ }
